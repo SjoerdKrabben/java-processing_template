@@ -3,7 +3,7 @@ package com.HAN.deeltijd.leerjaar1;
 public class damspel {
     Damsteen[][] damspel;
 
-    Damspel(int aantalRijen, int aantalKolommen) {
+    void Damspel(int aantalRijen, int aantalKolommen) {
         damspel = new Damsteen[aantalRijen][aantalKolommen];
 
         int kleur;
